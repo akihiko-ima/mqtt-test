@@ -1,0 +1,9 @@
+[mqtt]
+pub_client_id = "pub_device0" # publissher_クライアントID
+sub_client_id = "sub_device0" # subscriber_クライアントID
+broker_ip_addr = "localhost"  # ブローカーのIPアドレス
+port = 1883                   # ポート番号：1883
+max_second_conect = 60        # 通信可能な許容秒数
+pub_topic = 'test/device0'    # publissher_トピック名
+sub_topic = 'test/device0'    # subscriber_トピック名
+qos = 0                       # Quality of Service レベル
